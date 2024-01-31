@@ -1,0 +1,104 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">);
+{
+    font-family : 'Poppins', sans empattement ;
+    margin:0;
+    padding:0
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    background-color: #f0f0f0; 
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px ;
+
+}
+.logo{
+    text-decoration: none;
+    color:deeppink;
+    font-weight: 700;
+    font-size: 1.8em
+}
+.navigation a{
+    color: deeppink;
+    text-decoration: none;
+    font: size 1.1em;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.navigation a:hover{
+    color:#ba075b;
+}
+section{
+    padding: :100px 200px;
+
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(théme.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    
+
+}
+.main h2{
+    color: #f0f0f0;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+.main h2 span {
+   display: inline-block;
+   margin-top: 20px;
+   color: deeppink;
+   font-size: 2em;
+   font-weight: 600;
+   
+}
+.main h3 {
+
+    color: #f0f0f0;
+    background-color: deeppink;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.935em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15PX;
+    margin-bottom: 40px;
+    transition: 0,7s ease ;
+}
+.main h3:hover {
+    background-color: #ba075b;
+    transform: scale(1.1);
+
+}
+.social-icons a{
+    color:#f0f0f0;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.profile{
+display: flex;
+margin-left: 200px;
+color: #f0f0f0;
+}
+img{
+    margin-left: 70px;
+    margin-bottom: 250px;
+    align-items:flex-start;
+
+
+    
+}
